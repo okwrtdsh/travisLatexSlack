@@ -218,3 +218,7 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+deploy_key
+deploy_key.pub
+./build
+./public
