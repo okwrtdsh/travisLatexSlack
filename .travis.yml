@@ -26,4 +26,4 @@ before_install:
 
 script:
   - bash build.sh
-  - '[ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
+  - '[ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh  && bash ./slack.sh'
